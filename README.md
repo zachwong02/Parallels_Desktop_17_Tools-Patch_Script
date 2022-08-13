@@ -1,0 +1,1 @@
+# Parallels_Desktop_17_Tools-Patch_Script
