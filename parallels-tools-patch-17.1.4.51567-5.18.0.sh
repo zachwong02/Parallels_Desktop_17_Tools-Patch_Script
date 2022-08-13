@@ -30,6 +30,7 @@ echo "PATCHING FILES"
 wget https://raw.githubusercontent.com/wegank/nixos-config/7b89b4c6d1a87c83f10aa5d0f96fe0229795056e/hardware/parallels-unfree/prl-tools.patch
 cd kmods
 tar zxf prl_mod.tar.gz
+cd ..
 patch -p1 < prl-tools.patch
 echo "FILES PATCHED"
 echo "================================"
